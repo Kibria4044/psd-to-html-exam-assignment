@@ -1,0 +1,1044 @@
+
+@media (max-width: 1024px) {
+    header{
+        min-height: 85vh;
+    }
+    .carousel-pricings {
+        margin-top: 25px;
+    }
+    .carousel-pricings-header h1 {
+        margin: 20px 0;
+    }
+}
+@media (max-width: 768px) {
+    header{
+        min-height: 68vh;
+    }
+    .carousel-pricings {
+        margin-top: 20px;
+    }
+    .carousel-pricings-header h1 {
+        margin: 13px 0;
+        font-size: 30px;
+    }
+    .carousel-text {
+        /* margin-top: 30px; */
+        padding-top: 55px;
+    }
+    .carousel-text h6 {
+        font-size: 14px;
+    }
+    .carousel-logo p {
+        margin: 15px 0 5px 50px;
+        font-size: 14px;
+    }
+    .carousel-logo span {
+        position: absolute;
+        top: 5%;
+        transform: translateY(5%);
+    }
+    .carousel-logo h6 {
+        margin-left: 50px;
+    }
+}
+@media (max-width: 425px) {
+    header{
+        min-height: 40vh;
+    }
+    .nav-im-custom img {
+        width: 95px;
+    }
+    .carousel-pricings {
+        margin-top: 10px;
+    }
+    .carousel-pricings-header h6 {
+        font-size: 8px;
+    }
+    .carousel-pricings-header h1 {
+        margin: 0px 0 15px;
+        font-size: 20px;
+    }
+    .carousel-text h6 {
+        font-size: 10px;
+    }
+    .carousel-logo span img {
+        width: 25px;
+    }
+    .carousel-text h6 {
+        font-size: 8px;
+    }
+    .carousel-logo p {
+        margin: 0px 0 5px 35px;
+        font-size: 8px;
+    }
+    .carousel-logo h6 {
+        margin-left: 35px;
+    }
+    .carousel-pricings-header h1::before {
+        height: 2px;
+        width: 20px;
+    }
+    .carousel-pricings-header h1::after {
+        height: 2px;
+        width: 20px;
+    }
+    .pricings-head h3 {
+        font-size: 18px;
+    }
+    .pricings-rate h1 {
+        font-size: 30px;
+    }
+    footer {
+        min-height: 100px;
+    }
+}
+@media (max-width: 375px) {
+    header{
+        min-height: 47vh;
+    }
+    .nav-im-custom img {
+        width: 90px;
+    }
+    .carousel-pricings-header h1 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    header{
+        min-height: 42vh;
+    }
+    .nav-im-custom img {
+        width: 80px;
+    }
+    .carousel-pricings-header h1 {
+        margin: 0px 0 8px;
+        font-size: 16px;
+    }
+    .carousel-pricings-header h6 {
+        margin: 0;
+    }
+    .carousel-text h6 {
+        font-size: 7px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .banner{
+        min-height: 432px;
+    }
+}
+@media (max-width: 768px) {
+    .banner{
+        min-height: 340px;
+    }
+}
+@media (max-width: 425px) {
+    .banner{
+        min-height: 217px;
+    }
+}
+@media (max-width: 375px) {
+    .banner{
+        min-height: 214px;
+    }
+}
+@media (max-width: 320px) {
+    .banner{
+        min-height: 177px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link {
+        /* font-size: 18px; */
+    }
+}
+@media (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    span.navbar {
+        padding: 0;
+    }
+    i.fas.fa-sliders-h.toggle {
+        font-size: 20px;
+    }
+    a.navbar-brand {
+        font-size: 14px;
+    }
+}
+@media (max-width: 375px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+
+    span.navbar {
+        padding: 0;
+    }
+    i.fas.fa-sliders-h.toggle {
+        font-size: 17px;
+    }
+    a.navbar-brand {
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    span.navbar {
+        padding: 0;
+    }
+    
+    a.navbar-brand {
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .banner-content h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-content h1{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 425px) {
+    .banner-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 375px) {
+    .banner-content h1{
+        font-size: 26px;
+    }
+}
+@media (max-width: 320px) {
+    .banner-content h1{
+        font-size: 22px;
+        margin: 6px 0;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .banner-content h6{
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-content h6{
+        font-size: 13px;
+    }
+}
+@media (max-width: 425px) {
+    .banner-content h6{
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .banner-content h6{
+        font-size: 11px;
+    }
+}
+@media (max-width: 320px) {
+    .banner-content h6{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .banner-content p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-content p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .banner-content p{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 375px) {
+    .banner-content p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 320px) {
+    .banner-content p{
+        font-size: 12px;
+        margin: 0;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .btn-custom{
+    }
+    .btn-custom-one{
+
+    }
+}
+@media (max-width: 768px) {
+    .btn-custom{
+        font-size: 14px;
+    }
+    .btn-custom-one{
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .btn-custom{
+        font-size: 11px;
+    }
+    .btn-custom-one{
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .btn-custom{
+        font-size: 10px;
+    }
+    .btn-custom-one{
+        font-size: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .btn-custom{
+        font-size: 8px;
+    }
+    .btn-custom-one{
+        font-size: 8px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .menu .menu-item::before{
+        left: 3%;
+    }
+    .menu .menu-item:hover::before{
+        width: 3%;
+        left: 0;
+    }
+    
+    .menu .menu-item::after{
+        left: 4%;
+        width: 0;
+    }
+    .menu .menu-item:hover::after{
+        width: 3%;
+        right: 0;
+    }
+}
+@media (max-width: 425px) {
+    .menu .menu-item::before{
+        left: 4%;
+    }
+    .menu .menu-item:hover::before{
+        width: 4%;
+        left: 0;
+    }
+    
+    .menu .menu-item::after{
+        left: 6%;
+        width: 0;
+    }
+    .menu .menu-item:hover::after{
+        width: 4%;
+        right: 0;
+    }
+}
+@media (max-width: 375px) {
+    .menu .menu-item::before{
+        left: 5%;
+    }
+    .menu .menu-item:hover::before{
+        width: 6%;
+        left: 0;
+    }
+    
+    .menu .menu-item::after{
+        left: 7%;
+        width: 0;
+    }
+    .menu .menu-item:hover::after{
+        width: 5%;
+        right: 0;
+    }
+}
+@media (max-width: 320px) {
+    .menu .menu-item::before{
+        left: 5%;
+    }
+    .menu .menu-item:hover::before{
+        width: 5%;
+        left: 0;
+    }
+    
+    .menu .menu-item::after{
+        left: 7%;
+        width: 0;
+    }
+    .menu .menu-item:hover::after{
+        width: 5%;
+        right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .future-content h6 {
+        font-size: 13px;
+    }
+    .future-content h1 {
+        font-size: 30px;
+        margin: 20px 0;
+    } 
+    .future-content h1::after {
+        right: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .future-content h1::before {
+        left: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .beautiful-content h1::after {
+        right: 85%;
+    }
+    .super-content h1 {
+        font-size: 33px;
+    }
+    .super-content h1::after {
+        right: 81%;
+    }
+    .super-hg {
+        min-height: 463px;
+    }
+    .like-content h2 {
+        font-size: 28px;
+    }
+    .like-btn-custom {
+        font-size: 14px;
+    }
+    .download-btn-custom {
+        font-size: 14px;
+    }
+    .pricings-header h1::before {
+        left: 46%;
+    }
+    .pricings-header h1::after {
+        right: 46%;
+    }
+    .contact-content h1::before {
+        left: 46%;
+    }
+    .contact-content h1::after {
+        right: 46%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .future-content h6 {
+        font-size: 13px;
+    }
+    .future-content h1 {
+        font-size: 30px;
+        margin: 20px 0;
+    } 
+    .future-content h1::after {
+        right: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .future-content h1::before {
+        left: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .symple h4 {
+        font-size: 22px;
+    }
+    .symple p {
+        font-size: 14px;
+    }
+    .beautiful-content h1 {
+        font-size: 28px;
+        padding: 15px 0 25px;
+    }    
+
+    .beautiful-content p {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .beautiful-icon p {
+        font-size: 14px;        
+        margin: 5px 0;
+    }
+    .beautiful-icon {
+        margin-top: 20px;
+    }
+    .beautiful-content h1::after {
+        right: 79%;
+    }
+    .like-content h2 {
+        font-size: 20px;
+    }
+    .like-btn-custom {
+        font-size: 12px;
+    }
+    .download-btn-custom {
+        font-size: 12px;
+    }  
+    .super-hg {
+        min-height: 347px;
+    }
+    .super-content h6 {
+        font-size: 12px;
+    }  
+    .super-content h1 {
+        font-size: 25px;
+    }
+    .super-content h1::after {
+        right: 75%;
+    }
+    .super-content p {
+        font-size: 15px;
+
+    }
+    .pricings-header h1 {
+        font-size: 33px;
+    }
+    .pricings-header h1::before {
+        left: 45%;
+    }
+    .pricings-header h1::after {
+        right: 45%;
+    }
+    .pricings-rate {
+        height: 120px;
+    }
+    .pricings-content {
+        height: 200px;
+    }
+    .pricings-content p {
+        font-size: 15px;
+    }
+    .btn-pricings {
+        font-size: 12px;
+    }
+    .contact-content h1::after {
+        right: 45%;
+    }
+    .contact-content h1::before {
+        left: 45%;
+    }
+    .contact-add p {
+        font-size: 14px;
+    }
+    .feedback-part {
+        min-height: 300px;
+    }
+    .email-part {
+        margin: 30px 0px 0 20px;
+    }
+    .write-message {
+        margin: 30px 20px 0 0px;
+    }
+    .email-part form input {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .custom-textarea {
+        font-size: 14px;
+    }
+    .send-btn-custom {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .future-content h6 {
+        font-size: 13px;
+    }
+    .future-content h1 {
+        font-size: 30px;
+        margin: 20px 0;
+    } 
+    .future-content h1::after {
+        right: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .future-content h1::before {
+        left: 51%;
+        height: 3px;
+        width: 35px;
+    }
+    .icon-box {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .beautiful-content h1::before {
+        height: 3px;
+    }
+
+    .beautiful-content h1::after {
+        height: 3px;
+        left: 10%;
+    }
+    .like-content h2 {
+        font-size: 21px;
+        text-align: center;
+    }
+    .like-btn {
+        text-align: center;
+        float: none;
+    }
+    .pricings-header h1 {
+        font-size: 33px;
+        margin: 20px 0 25px;
+    }
+    .pricings-header h1::after {
+        right: 51%;
+    }
+    .pricings-header h1::before {
+        left: 51%;
+    }
+    .pricings-rate {
+        height: 100px;
+    }
+    .pricings-content {
+        height: 190px;
+    }
+    .pricings-content p {
+        font-size: 16px;
+    }
+    .btn-pricings {
+        font-size: 12px;
+    }
+    .super-hg {
+        min-height: 320px;
+    }
+    .super {
+        min-height: 55vh;
+    }
+    .super-content p {
+        font-size: 16px;
+    }
+    .super-content h1 {
+        font-size: 33px;
+    }
+    .super-content h1::before {
+        height: 3px;
+    }
+    .super-content h1::after {
+        height: 3px;
+        right: 83%;
+    }
+    .pricings-header h1::before {
+        height: 3px;
+    }
+    .pricings-header h1::after {
+        height: 3px;
+    }
+    .contact-content h6 {
+        font-size: 10px;
+    }
+    .contact-content h1 {
+        font-size: 30px;
+        margin: 16px 0;
+    }
+    .contact-content h1::after {
+        right: 51%;
+        height: 3px;
+    }
+    .contact-content h1::before {
+        left: 51%;
+        height: 3px;
+    }
+    .contact-add p {
+        color: #a6a6a6;
+        font-size: 11px;
+    }
+    .contact-icon i {
+        font-size: 30px;
+    }
+    .contact {
+        min-height: 560px;
+    }
+    .contact-icon {
+        padding-bottom: 5px;
+    }
+    .send-btn-custom {
+        /* margin-right: 0; */
+        /* margin-top: 0; */
+        font-size: 8px;
+        margin: 0 0 10px;
+    }
+    .feedback-part {
+        min-height: 265px;
+    }
+    .feedback-part {
+        top: 63%;
+    }
+    .email-part {
+        margin: 20px 0px 0 -2px;
+    }
+    .email-part form input {
+        /* font-size: 14px; */
+        margin-bottom: 0px;
+    }
+    .write-message {
+        margin: 0;
+    }
+    .form-custom {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .custom-textarea {
+        height: 70px;
+        font-size: 12px;
+    }
+    .social-share a {
+        font-size: 18px;
+    }
+    .footer-text p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .future-content h6 {
+        font-size: 12px;
+    }
+    .future-content h1 {
+        font-size: 28px;
+        margin: 15px 0;
+    } 
+    .future-content h1::after {
+        right: 51%;
+        height: 3px;
+        width: 30px;
+    }
+    .future-content h1::before {
+        left: 51%;
+        height: 3px;
+        width: 30px;
+    }
+    .icon-box {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .beautiful-content h1::before {
+        height: 3px;
+    }
+    .beautiful-content h1::after {
+        right: 70%;
+        height: 3px;
+    }
+    .super-content h1 {
+        padding: 5px 0 15px;
+        font-size: 30px;
+    }
+    .super-content p {
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .super-hg {
+        min-height: 215px;
+    }
+    .super {
+        min-height: 37vh;
+    }
+    .super-content h1::before {
+        height: 3px;
+    }
+    .super-content h1::after {
+        right: 80%;
+        height: 3px;
+    }
+    .like-content h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .email-part {
+        margin: 20px 0px 0 -2px;
+    }
+    .write-message {
+        margin: 0;
+    }
+    .form-custom {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    .custom-textarea {
+        height: 70px;
+        font-size: 12px;
+    }
+    .pricings-header h1 {
+        font-size: 30px;
+    }
+    .pricings-header h1::before {
+        left: 51%;
+        height: 3px;
+    }
+    .pricings-header h1::after {
+        right: 51%;
+        height: 3px;
+    }
+    .pricings-rate {
+        height: 100px;
+    }
+    .pricings-content {
+        height: 200px;
+    }
+    .pricings-content p {
+        font-size: 14px;
+    }
+    .btn-pricings {
+        font-size: 10px;
+    }
+    .contact-content h6 {
+        font-size: 10px;
+    }
+    .contact-content h1 {
+        font-size: 30px;
+        margin: 16px 0;
+    }
+    .contact-content h1::after {
+        right: 51%;
+        height: 3px;
+    }
+    .contact-content h1::before {
+        left: 51%;
+        height: 3px;
+    }
+    .contact-add p {
+        color: #a6a6a6;
+        font-size: 10px;
+    }
+    .contact-icon i {
+        font-size: 30px;
+    }
+    .contact {
+        min-height: 560px;
+    }
+    .contact-icon {
+        padding-bottom: 5px;
+    }
+    .send-btn-custom {
+        margin-right: 0;
+        margin-top: 0;
+        font-size: 8px;
+    }
+    .feedback-part {
+        min-height: 265px;
+    }
+    .social-share a {
+        font-size: 16px;
+    }
+    .footer-text p {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .future-content h6 {
+        font-size: 10px;
+    }
+    .future-content h1 {
+        font-size: 25px;
+        margin: 15px 0;
+    } 
+    .future-content h1::after {
+        right: 51%;
+        height: 3px;
+        width: 30px;
+    }
+    .future-content h1::before {
+        left: 51%;
+        height: 3px;
+        width: 30px;
+    }
+    .symple h4 {
+        font-size: 18px;
+    }
+    .symple p {
+        font-size: 12px;
+    }
+    .icon-box {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .beautiful-content h1 {
+        font-size: 25px;
+        padding: 5px 0 15px;
+    }
+    .beautiful-content h1::after {
+        left: 13%;
+        height: 3px;
+    }
+    .beautiful-content h1::before {
+        height: 3px;
+    }
+    
+    .beautiful-content p {
+        font-size: 12px;       
+    }
+    .contact-content h6 {
+        font-size: 10px;
+    }
+    .contact-content h1 {
+        font-size: 30px;
+        margin: 16px 0;
+    }
+    .contact-content h1::after {
+        right: 51%;
+        height: 3px;
+    }
+    .contact-content h1::before {
+        left: 51%;
+        height: 3px;
+    }
+    .contact-add p {
+        color: #a6a6a6;
+        font-size: 9px;
+    }
+    .contact-icon i {
+        font-size: 30px;
+    }
+    .contact {
+        min-height: 560px;
+    }
+    .contact-icon {
+        padding-bottom: 5px;
+    }
+    .pricings-content p {
+        font-size: 12px;
+    }
+    .btn-pricings {
+        font-size: 10px;
+    }
+    .pricings-rate h1 {
+        /* font-size: 40px; */
+    }
+    .pricings-head h3 {
+        /* font-size: 18px; */
+    }
+    .pricings-header h1 {
+        font-size: 30px;
+    }
+    .pricings-header h1::after {
+        right: 51%;
+        height: 3px;
+    }
+    .pricings-header h1::before {
+        left: 51%;
+        height: 3px;
+    }
+
+    .super-content h1 {
+        font-size: 25px;
+        padding: 10px 0 20px;
+    }
+    .super-content p {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    .super-hg {
+        min-height: 260px;
+    }
+    .super {
+        min-height: 45vh;
+    }
+    .super-content h1::after {
+        right: 77%;
+        height: 3px;
+    }
+    .send-btn-custom {
+        margin-right: 0;
+        margin-top: 0;
+        font-size: 8px;
+    }
+    .feedback-part {
+        min-height: 265px;
+    }
+    .download-btn-custom {
+        font-size: 8px;
+    }
+    .like-btn-custom {
+        font-size: 8px;
+    }
+    .pricings-head {
+        height: 60px;
+    }
+    .pricings-rate {
+        height: 100px;
+    }
+    .pricings-content {
+        height: 170px;
+    }
+    .social-share a {
+        font-size: 14px;
+    }
+    .footer-text p {
+        font-size: 10px;
+    }
+}
+
+
+
+

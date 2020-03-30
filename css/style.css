@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,900,900i&display=swap');
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.nav-im-custom{
+
+}
+.nav-im-custom img{
+    
+}
+.toggle{
+    color: #fff;   
+    padding: 0; 
+}
+.toggle:hover{
+    color: #40afcc;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #40afcc;
+}
+
+
+.menu .menu-item{
+    position: relative;    
+    z-index: 999;
+}
+
+.menu .menu-item::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 0;
+    background-color: #40afcc;
+    transition: .4s all ease-in-out;
+}
+.menu .menu-item:hover::before{    
+    width: 45%;
+    left: 0;
+}
+
+.menu .menu-item::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    height: 3px;
+    width: 0;
+    background-color: #40afcc;
+    transition: .4s all ease-in-out;    
+}
+.menu .menu-item:hover::after{    
+    width: 45%;
+    right: 0;
+    
+}
+
+/* banner-content part start */
+
+.banner{
+    min-height: 598px;
+}
+.banner-content{
+    
+}
+.banner-content h6{
+    color: #0188cd;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.banner-content p{
+    color: #939393;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btn-custom{    
+    background-color: transparent;      
+    border: 1px solid #939393;
+    text-transform: uppercase;
+}
+.btn-custom-one{
+    background-color: transparent;      
+    border: 1px solid #939393;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+
+/* list of amiging futures part start */
+
+
+.future{
+
+}
+.future-content{
+
+}
+.future-content h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.future-content h1{
+    font-size: 36px;
+    margin: 40px 0;
+}
+.future-content h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.future-content h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+
+
+/* symple & pure design part start */
+
+
+.symple-part{
+
+}
+.icon-box{
+    height: 100px;
+    width: 100px;
+    color: #008ed6;
+    font-size: 45px;
+    line-height: 100px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #008ed6;
+    border-radius: 50%;
+    transition: .4s all ease-in-out;
+}
+.icon-box:hover{
+    color: #fff;
+    background-color: #008ed6;
+    cursor: pointer;
+}
+.symple{
+
+}
+.symple h4{
+    padding: 15px 0;
+    color: #2d3950;
+    font-size: 24px;
+}
+.symple p{
+    color: #999999;
+    font-size: 18px;
+}
+
+
+/* beautyfull on every device part start */
+
+.beautiful{
+    
+}
+.beautiful img{
+    
+}
+.beautiful-content{
+    
+}
+.beautiful-content h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.beautiful-content h1{
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    padding: 20px 0 30px;
+}
+.beautiful-content h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.beautiful-content h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 87%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.beautiful-content p{
+    font-size: 18px;
+    color: #a6a6a6;
+    margin-top: 30px;
+}
+.beautiful-icon{
+    margin-top: 30px;
+}
+.beautiful-icon p{
+    position: relative;
+    padding-left: 30px;
+}
+.beautiful-icon p span{
+    position: absolute;
+    color: #44ace1;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+/* super easy to customize part start */
+
+.super{
+    background-image: url(../images/super-mobile.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.super-hg{
+    min-height: 525px;
+}
+.super-content{
+
+}
+.super-content h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.super-content h1{
+    font-weight: 700;
+    font-size: 36px;
+    position: relative;
+    padding: 20px 0 30px;
+}
+.super-content h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.super-content h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 84%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.super-content p{
+    font-size: 18px;
+    color: #a6a6a6;
+    margin-top: 30px;
+}
+
+/* carousel part start */
+
+.carousel-pricings{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+.carousel-pricings-header h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.carousel-pricings-header h1{
+    font-size: 36px;
+    margin: 40px 0;
+    font-weight: 700;
+    color: #fff;
+}
+.carousel-pricings-header h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 52%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.carousel-pricings-header h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 52%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+
+.carousel-slide{
+    position: relative;
+}
+.carousel-img{
+
+}
+.carousel-content{    
+    position: absolute;    
+    top: 50%;    
+    left: 50%;    
+    transform: translate(-50%, -50%);    
+    color: #fff;    
+    width: 80%;
+}
+.carousel-text{
+
+}
+.carousel-text h6{
+
+color: #d4d3d4;
+}
+.carousel-text-two{
+    
+}
+.carousel-logo{
+    position: relative;
+}
+.carousel-logo p{    
+    margin: 25px 0 5px 55px;
+}
+.carousel-logo h6{
+    margin: 0;margin-left: 55px;
+}
+.carousel-logo span{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    transform: translateY(10%);
+}
+.carousel-logo span img{       
+    width: 40px;
+}
+
+/* like what you see part start */
+
+.like{
+    background-color: #15141a;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    width: 100%;
+}
+.like-content{
+    
+}
+.like-content span{    
+    color: #fff;    
+    font-weight: 600;
+}
+.like-content h2{    
+    color: #dededf;    
+    font-size: 34px;
+}
+.like-btn{
+    float: right;
+}
+.like-btn-custom{
+    background-color: transparent;      
+    border: 1px solid #939393;
+    text-transform: uppercase;
+}
+.download-btn-custom{
+    background-color: transparent;      
+    border: 1px solid #939393;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+
+/* pricings & plans part start */
+
+.pricings{
+
+}
+.pricings-header{
+
+}
+.pricings-header h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.pricings-header h1{
+    font-size: 36px;
+    margin: 40px 0;
+    font-weight: 700;
+}
+.pricings-header h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    height: 3px;
+    width: 31px;
+    background-color: #40afcc;
+}
+.pricings-header h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+
+.pricings-part{
+
+}
+.pricings-head{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #e0e0e0;
+}
+
+.pricings-head h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 70px;
+    transition: .4s all ease-in-out;
+}
+.pricings-part:hover .pricings-head h3{
+    color: #008ed6;
+}
+.pricings-rate{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    transition: .4s all ease-in-out;
+}
+.pricings-part:hover .pricings-rate{
+    background: #008ed6;
+    color: #fff;
+}
+.pricings-rate h1{
+    font-size: 40px;
+    position: relative;
+    font-weight: 700;
+}
+.pricings-rate h1 span{
+    position: absolute;
+    font-size: 22px;
+    top: 13%;
+    left: 20%;
+    transform: translateX(-50%);
+}
+.pricings-rate p{
+    font-size: 18px;
+}
+.pricings-content{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+.pricings-rate-content{
+    
+}
+.pricings-content p{
+    font-size: 18px;
+    padding: 0 10px;
+    color: #a6a6a6;
+}
+.btn-pricings{
+    background: transparent;
+    color: #008ed6;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .4s all ease-in-out;
+}
+.pricings-part:hover .btn-pricings{
+    background: #008ed6;
+    color: #fff;
+}
+
+/* contact us part start */
+
+.contact{
+    background-color: #ededed;
+    width: 100%;
+    min-height: 650px;
+    position: relative;
+}
+.contact-content{
+
+}
+.contact-content h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #008ed6;
+}
+.contact-content h1{
+    font-size: 36px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+.contact-content h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+.contact-content h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 47%;
+    height: 3px;
+    width: 30px;
+    background-color: #40afcc;
+}
+
+.contact-icon{
+    padding-bottom: 30px;
+}
+.contact-icon i{
+    font-size: 50px;
+    color: #008ed6;
+}
+.contact-icon p{
+    
+}
+.contact-add{
+    width: 50%;
+    margin: auto;
+}
+.contact-add p{
+    color: #a6a6a6;
+}
+
+
+/* email part start */
+
+.feedback-part{
+    background-color: #15141a;
+    width: 60%;
+    min-height: 340px;
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.email-part{
+    margin: 50px 0px 0 30px;
+}
+.email-part form{
+   
+}
+.email-part form input{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #606062;
+	color: white;
+	border-radius: 0;
+}
+.form-custom{
+    margin-bottom: 33px;
+    background-color: transparent;
+}
+.write-message{
+    margin: 50px 30px 0 0px;
+}
+.custom-textarea{
+    width: 100%;
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid #606062;
+    color: #fff;
+}
+.send-btn-custom{
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid #939393;
+    text-transform: uppercase;
+    color: #757575;
+}
+
+/* map part start */
+
+.map{
+    padding: 0;
+}
+
+
+/* footer part start */
+
+footer{
+    background-color: #15141a;
+    display: flex;
+    min-height: 150px;
+    align-items: center;
+    width: 100%;
+}
+.social-share{
+    padding-bottom: 15px;
+}
+
+.social-share a{
+    font-size: 20px;
+    color: #444348;
+    margin: 0px 10px;
+}
+.social-share a:hover{
+    color: #008ed6;
+}
+.footer-text{
+
+}
+.footer-text p{
+    margin: 0;
+    color: #444348;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
